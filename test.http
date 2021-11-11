@@ -1,0 +1,9 @@
+@baseurl=http://127.0.0.1:8000/
+
+### @name getPosts
+GET {{baseurl}}api/v1/
+Content-Type: application/json
+
+### @name getOnePost
+GET {{baseurl}}api/v1/1/
+Content-Type: application/json
